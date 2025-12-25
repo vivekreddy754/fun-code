@@ -17,8 +17,8 @@ public class TwoSumSorted {
     }
 
     public static void main(String[] args) {
-        int[] input = {2, 4, 5, 8, 11, 15};
-        int target = 9;
+        int[] input = {3,3};
+        int target = 6;
         int[] result = twoSum(input, target);
         System.out.println(Arrays.toString(result));
     }
